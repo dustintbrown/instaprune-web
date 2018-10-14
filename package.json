@@ -12,6 +12,7 @@
   },
   "author": "Dustin T. Brown",
   "dependencies": {
+    "auth0-js": "^9.8.0",
     "express": "^4.16.3",
     "react": "^16.3.1",
     "react-dom": "^16.3.1"

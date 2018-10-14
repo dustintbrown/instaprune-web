@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import './app.css';
-import ReactImage from './react.png';
+import Auth from './Auth/Auth.js';
+// import ReactImage from './react.png';
+
+const auth = new Auth();
+auth.login();
 
 export default class App extends Component {
   // state = { username: null };
@@ -14,7 +18,7 @@ export default class App extends Component {
   render() {
     // const { username } = this.state;
     return (
-      <div>Yo Yo Yo</div>
+      <div>Welcome to Instaprune</div>
       );
   }
 }
